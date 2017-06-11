@@ -10,7 +10,7 @@ public class CloudServiceImpl implements BusinessService {
 		Random random = new Random();
 		String service = "\nAs an Organization, " + companyName +
 				" offers world class Cloud computing infrastructure."+
-				"\nThe annual income exceeds "+ random.nextInt(revenue) + "dollars.";
+				"\nThe annual income exceeds "+ random.nextInt(revenue) + " dollars.";
 		return service;
 	}
 
