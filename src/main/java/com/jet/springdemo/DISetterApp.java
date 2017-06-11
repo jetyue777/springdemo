@@ -1,5 +1,6 @@
 package com.jet.springdemo;
 
+import com.jet.springdemo.domain.Organization;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 

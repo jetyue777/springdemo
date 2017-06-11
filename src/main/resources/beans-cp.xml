@@ -4,7 +4,7 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 
-	<bean id="myorg" class="com.jet.springdemo.Organization">
+	<bean id="myorg" class="com.jet.springdemo.domain.Organization">
 		<constructor-arg value="BMW" name="companyName"></constructor-arg>
 		<constructor-arg value="1929" name="yearOfIncorporation"></constructor-arg>
 		<property name="postalCode" value="56565"></property>
